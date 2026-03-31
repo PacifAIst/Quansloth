@@ -115,6 +115,11 @@ http://127.0.0.1:7860
 
 ---
 
-## 📜 Acknowledgements
+## 📜 License & Credits
 
-See `ACKNOWLEDGEMENTS.md` for credits to the C++ backend powering this system.
+* **License:** This project is licensed under the [Apache 2.0 License](LICENSE).
+* **Credits:** See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for full credits regarding the C++ backend and TurboQuant technology powering this system.
+
+---
+
+<p align="center">Made with ❤️ for the Local AI Community by PacifAIst</p>
