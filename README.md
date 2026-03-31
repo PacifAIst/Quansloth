@@ -1,3 +1,4 @@
+Markdown
 # 🦥 Quansloth: TurboQuant Local AI Server
 
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
@@ -34,6 +35,8 @@ Open your WSL Ubuntu terminal and create a fresh Conda environment:
 ```bash
 conda create -n quansloth python=3.10 -y
 conda activate quansloth
+2. Clone this Repository
+
 Bash
 git clone [https://github.com/PacifAIst/Quansloth.git](https://github.com/PacifAIst/Quansloth.git)
 cd Quansloth
