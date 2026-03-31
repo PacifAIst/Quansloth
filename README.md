@@ -71,9 +71,10 @@ conda create -n quansloth python=3.10 -y
 conda activate quansloth
 ```
 
-### 2. Clone Repository
+### 2. Requirements and Clone Repository
 
 ```bash
+pip install -r requirements.txt
 git clone https://github.com/PacifAIst/Quansloth.git
 cd Quansloth
 ```
