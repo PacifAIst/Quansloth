@@ -16,7 +16,19 @@
 ![Platform: Linux | WSL2](https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-orange.svg)
 ![Backend: CUDA](https://img.shields.io/badge/Backend-NVIDIA%20CUDA-green.svg)
 
-Based on the implementation of Google's TurboQuant [(ICLR 2026)](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/) — KV cache compression for local LLM inference, with planned extensions beyond the paper. Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, saving up to **75% of your VRAM**.
+# 🦥 Quansloth: TurboQuant Local AI Server
+
+> **Breaking the VRAM Wall:** Based on the implementation of **Google's TurboQuant ([ICLR 2026](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/))** — Quansloth brings elite KV cache compression to local LLM inference.
+
+Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, **saving up to 75% of VRAM.**
+
+### 🛑 Why Quansloth? (No More GPU Crashes)
+Standard LLM inference often hits a "Memory Wall" when processing long documents; as the context grows, the GPU runs out of memory (OOM) and the system crashes. 
+
+**Quansloth prevents these crashes by:**
+* **75% Cache Shrink:** Compressing the "memory" of the AI from 16-bit to 4-bit (TurboQuant).
+* **Massive Context on Budget GPUs:** Run 32k+ token contexts on a 6GB RTX 3060 that would normally require a 24GB RTX 4090.
+* **Hardware-Level Stability:** Our interface monitors the CUDA backend to ensure the model stays within your GPU's physical limits, allowing for stable, long-form document analysis without the fear of a system hang.
 
 ![Interface](./images/2.png)
 
