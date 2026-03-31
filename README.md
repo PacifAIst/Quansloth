@@ -1,4 +1,3 @@
-Markdown
 # 🦥 Quansloth: TurboQuant Local AI Server
 
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
@@ -35,38 +34,50 @@ Open your WSL Ubuntu terminal and create a fresh Conda environment:
 ```bash
 conda create -n quansloth python=3.10 -y
 conda activate quansloth
-2. Clone this Repository
+```
 
-Bash
-git clone [https://github.com/PacifAIst/Quansloth.git](https://github.com/PacifAIst/Quansloth.git)
+**2. Clone this Repository**
+```bash
+git clone https://github.com/PacifAIst/Quansloth.git
 cd Quansloth
-3. Run the Automated Installer
+```
+
+**3. Run the Automated Installer**
 We have included a bash script that will automatically download the required C++ engine, compile it safely for your GPU (using 4 CPU cores to prevent RAM crashes), and install all Python dependencies.
 
-Bash
+```bash
 chmod +x install.sh
 ./install.sh
-🎮 Usage
-Adding Models:
+```
+
+---
+
+## 🎮 Usage
+
+**Adding Models:**
 Download any .gguf AI model (e.g., Llama 3) from HuggingFace and place it inside the models/ directory.
 
-Starting the Server (Linux/WSL):
-
-Bash
+**Starting the Server (Linux/WSL):**
+```bash
 conda activate quansloth
 python quansloth_gui.py
-Starting the Server (Windows 1-Click):
+```
+
+**Starting the Server (Windows 1-Click):**
 If you created the Launch_Quansloth.bat file from our setup guide, simply double-click it on your Windows desktop. It will automatically boot the WSL matrix and launch the app in the background.
 
-Connecting:
+**Connecting:**
 Open your web browser and navigate to:
 👉 http://127.0.0.1:7860
 
-🎛️ Pro Tips for the UI
-Symmetric (Turbo3): Best overall compression for standard models.
+---
 
-Asymmetric (Q8/Turbo4): Use this if you are running Q4_K_M quantized models to balance speed and memory.
+## 🎛️ Pro Tips for the UI
 
-Watch the Math: When you hit Launch, keep an eye on the "Hardware Stats" box to see exactly how many Megabytes of VRAM the TurboQuant engine just saved you.
+- **Symmetric (Turbo3):** Best overall compression for standard models.
+- **Asymmetric (Q8/Turbo4):** Use this if you are running Q4_K_M quantized models to balance speed and memory.
+- **Watch the Math:** When you hit Launch, keep an eye on the "Hardware Stats" box to see exactly how many Megabytes of VRAM the TurboQuant engine just saved you.
+
+---
 
 Please see ACKNOWLEDGEMENTS.md for credits regarding the C++ backend that powers this interface.
