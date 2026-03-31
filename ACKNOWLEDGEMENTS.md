@@ -1,4 +1,4 @@
-### 2. `ACKNOWLEDGEMENTS.md`
+## `ACKNOWLEDGEMENTS.md`
 
 # 🙏 Acknowledgements & Credits
 
