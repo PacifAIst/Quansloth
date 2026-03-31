@@ -10,7 +10,13 @@
          [ POWERED BY TURBOQUANT+ | NVIDIA CUDA ]
 ```
 
-🦥 **Quansloth** is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized llama.cpp CUDA backend, Quansloth achieves extreme memory compression, saving up to 75% of your VRAM.
+# 🦥 Quansloth: TurboQuant Local AI Server
+
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Platform: Linux | WSL2](https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-orange.svg)
+![Backend: CUDA](https://img.shields.io/badge/Backend-NVIDIA%20CUDA-green.svg)
+
+Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, saving up to **75% of your VRAM**.
 
 ---
 
@@ -24,11 +30,11 @@
 
 ## ✨ Features
 
-- **TurboQuant Cache Compression**: Run 8,192+ token contexts natively on 6GB GPUs without OOM crashes.  
-- **Live Hardware Analytics**: Intercepts C++ engine logs to report VRAM allocation and savings in real-time.  
-- **Context Injector**: Upload long documents (PDF, TXT, CSV, MD) directly into chat.  
-- **Dual-Routing**: Auto-scan `models/` or load custom `.gguf` paths.  
-- **Cyberpunk UI**: Fully responsive dark-mode dashboard for power users.  
+* **TurboQuant Cache Compression:** Run 8,192+ token contexts natively on 6GB GPUs without Out-Of-Memory (OOM) crashes.
+* **Live Hardware Analytics:** The UI physically intercepts the C++ engine logs to report your exact VRAM allocation and savings in real-time.
+* **Context Injector:** Upload long documents (PDF, TXT, CSV, MD) directly into the chat stream to test the AI's memory limits.
+* **Dual-Routing:** Auto-scan your local `models/` folder, or input custom absolute paths to load any `.gguf` file.
+* **Cyberpunk UI:** A sleek, fully responsive dark-mode dashboard built for power users.
 
 ---
 
