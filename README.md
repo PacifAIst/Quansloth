@@ -18,6 +18,8 @@
 
 Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, saving up to **75% of your VRAM**.
 
+![Interface](./images/2.png)
+
 ---
 
 ---
