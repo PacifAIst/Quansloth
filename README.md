@@ -138,7 +138,7 @@ http://127.0.0.1:7860
 ## 📜 License & Credits
 
 * **License:** This project is licensed under the [Apache 2.0 License](LICENSE).
-* **Credits:** See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for full credits regarding the C++ backend and TurboQuant technology powering this system.
+* **Credits:** See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for full credits regarding the C++ backend and TurboQuant technology ([turboquant_plus](https://github.com/TheTom/turboquant_plus) by TheTom) powering this system.
 
 ---
 
