@@ -20,6 +20,14 @@ Quansloth is a fully private, air-gapped AI server that runs massive context mod
 
 ---
 
+---
+
+📸 Interface Preview
+
+(./images/1.png)
+
+---
+
 ## 🖥️ OS Compatibility
 
 - **Windows 10/11**: Fully Supported (via WSL2 Ubuntu). Features a 1-click `.bat` launcher.  
@@ -119,6 +127,12 @@ http://127.0.0.1:7860
 
 * **License:** This project is licensed under the [Apache 2.0 License](LICENSE).
 * **Credits:** See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for full credits regarding the C++ backend and TurboQuant technology powering this system.
+
+---
+
+👤 Author
+Dr. Manuel Herrador 📧 mherrador@ujaen.es
+University of Jaén (UJA) - Spain
 
 ---
 
