@@ -1,5 +1,3 @@
-# `ACKNOWLEDGEMENTS.md`
-
 # 🙏 Acknowledgements & Credits
 
 Quansloth (under License Apache 2.0) was built as a bridge to make extreme AI hardware optimization accessible through a beautiful, user-friendly Python interface. 
