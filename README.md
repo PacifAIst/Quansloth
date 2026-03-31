@@ -34,8 +34,6 @@ Standard LLM inference often hits a "Memory Wall" when processing long documents
 
 ---
 
----
-
 📸 Interface Preview
 
 ![Interface](./images/1.png)
