@@ -5,9 +5,10 @@ echo "======================================================="
 echo "   🚀 QUANSLOTH: TURBOQUANT LOCAL AI INSTALLER 🚀   "
 echo "======================================================="
 
-echo -e "\n[1/4] Checking system dependencies (Git, Build Tools, CMake)..."
+echo -e "\n[1/4] Checking system dependencies (Git, Build Tools, CMake, CUDA)..."
 sudo apt-get update
-sudo apt-get install -y build-essential cmake git
+# 🟢 Added nvidia-cuda-toolkit to guarantee GPU compilation
+sudo apt-get install -y build-essential cmake git nvidia-cuda-toolkit
 
 echo -e "\n[2/4] Fetching TheTom's TurboQuant Engine (Feature Branch)..."
 cd ~
