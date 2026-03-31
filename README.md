@@ -16,7 +16,7 @@
 ![Platform: Linux | WSL2](https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-orange.svg)
 ![Backend: CUDA](https://img.shields.io/badge/Backend-NVIDIA%20CUDA-green.svg)
 
-Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, saving up to **75% of your VRAM**.
+Based on the implementation of Google's TurboQuant [(ICLR 2026)](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/) — KV cache compression for local LLM inference, with planned extensions beyond the paper. Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, saving up to **75% of your VRAM**.
 
 ![Interface](./images/2.png)
 
