@@ -24,7 +24,7 @@ Quansloth is a fully private, air-gapped AI server that runs massive context mod
 
 📸 Interface Preview
 
-(./images/1.png)
+![Interface](./images/1.png)
 
 ---
 
