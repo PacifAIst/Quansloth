@@ -1,4 +1,4 @@
-# Quansloth: TurboQuant Local AI Server
+# 🦥 Quansloth: TurboQuant Local AI Server
 
 ```
    ____                         _       _   _     
@@ -9,8 +9,6 @@
   \___\_\\__,_|\__,_|_| |_||___/_|\___/ \__|_| |_|
          [ POWERED BY TURBOQUANT+ | NVIDIA CUDA ]
 ```
-
-# 🦥 Quansloth: TurboQuant Local AI Server
 
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Platform: Linux | WSL2](https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-orange.svg)
