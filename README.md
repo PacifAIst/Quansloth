@@ -1,3 +1,11 @@
+____                         _       _   _     
+  / __ \                       | |     | | | |    
+ | |  | |_   _  __ _ _ __   ___| | ___ | |_| |__  
+ | |  | | | | |/ _` | '_ \ / __| |/ _ \| __| '_ \ 
+ | |__| | |_| | (_| | | | |\__ \ | (_) | |_| | | |
+  \___\_\\__,_|\__,_|_| |_||___/_|\___/ \__|_| |_|
+         [ POWERED BY TURBOQUANT+ | NVIDIA CUDA ]
+
 # 🦥 Quansloth: TurboQuant Local AI Server
 
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
