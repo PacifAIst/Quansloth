@@ -137,7 +137,6 @@ http://127.0.0.1:7860
 * **Core Technology:** Built upon the **TurboQuant+** extensions and implementation developed by **TheTom** ([@TheTom](https://github.com/TheTom/turboquant_plus)).
 * **Research & Algorithms:** The underlying algorithm is based on research from **Google Research** ([arXiv:2504.19874](https://arxiv.org/abs/2504.19874)).
 * **CUDA Kernels:** Special thanks to **Gabe Ortiz** ([signalnine](https://github.com/signalnine)) for porting the CUDA kernels.
-* **Full Details:** See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for a comprehensive list of contributors and backend technologies.
 
 ---
 
