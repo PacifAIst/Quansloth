@@ -127,7 +127,7 @@ http://127.0.0.1:7860
 ## 🎛️ Pro Tips
 
 - **Symmetric (Turbo3)** → Best overall compression  
-- **Asymmetric (Q8/Turbo4)** → Better for Q4_K_M models  
+- **Asymmetric (Q8/Turbo4)** → Better for Q4_K_M models (e.g., Qwen)  
 - Monitor **Hardware Stats** for real-time VRAM savings  
 
 ---
