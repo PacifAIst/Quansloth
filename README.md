@@ -76,7 +76,6 @@ conda activate quansloth
 ```bash
 git clone https://github.com/PacifAIst/Quansloth.git
 cd Quansloth
-pip install -r requirements.txt
 ```
 
 ### 3. Run Installer
