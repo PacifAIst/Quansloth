@@ -7,8 +7,20 @@ echo "======================================================="
 
 echo -e "\n[1/4] Checking system dependencies (Git, Build Tools, CMake, CUDA)..."
 sudo apt-get update
-# 🟢 Added nvidia-cuda-toolkit to guarantee GPU compilation
-sudo apt-get install -y build-essential cmake git nvidia-cuda-toolkit
+
+# Base packages that everyone always needs
+PACKAGES="build-essential cmake git"
+
+# 🟢 NEW: Smart CUDA Detection!
+if command -v nvcc &> /dev/null; then
+    echo "✅ Existing CUDA Toolkit (nvcc) detected! Skipping redundant CUDA download to prevent bloat."
+else
+    echo "⚠️ No CUDA Toolkit found. Adding nvidia-cuda-toolkit to the download queue..."
+    PACKAGES="$PACKAGES nvidia-cuda-toolkit"
+fi
+
+# Install the dynamically built list of packages
+sudo apt-get install -y $PACKAGES
 
 echo -e "\n[2/4] Fetching TheTom's TurboQuant Engine (Feature Branch)..."
 cd ~
