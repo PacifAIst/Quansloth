@@ -14,6 +14,20 @@
 ![Platform: Linux | WSL2](https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-orange.svg)
 ![Backend: CUDA](https://img.shields.io/badge/Backend-NVIDIA%20CUDA-green.svg)
 
+<div align="center">
+
+## 🥉 Achievement Unlocked: 128+ Stars!
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="100" alt="Bronze Starstruck Medal">
+
+**We just bagged our second medal!** 
+
+A massive thank you to this amazing community. Hitting 128 stars—a beautiful power of two—is a huge milestone. Your support, feedback, and contributions are what fuel the code and keep this project leveling up. 
+
+Keep hacking, keep building, and let's aim for the next high score (256)! 🚀👾
+
+</div>
+
 > **Breaking the VRAM Wall:** Based on the implementation of **Google's TurboQuant ([ICLR 2026](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/))** — Quansloth brings elite KV cache compression to local LLM inference.
 
 Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, **saving up to 75% of VRAM.**
