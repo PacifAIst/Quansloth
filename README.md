@@ -18,7 +18,7 @@
 
 ## 🥉 Achievement Unlocked: 128+ Stars!
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" width="100" alt="Bronze Starstruck Medal">
+<img src="https://github.com/drknzz/GitHub-Achievements/blob/main/Media/Badges/Star-Struck/PNG/StarStruck_Bronze.png" width="100" alt="Bronze Starstruck Medal">
 
 **We just bagged our second medal!** 
 
