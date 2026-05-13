@@ -28,6 +28,8 @@ Keep hacking, keep building, and let's aim for the next high score (256)! 🚀�
 
 </div>
 
+---
+
 > **Breaking the VRAM Wall:** Based on the implementation of **Google's TurboQuant ([ICLR 2026](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/))** — Quansloth brings elite KV cache compression to local LLM inference.
 
 Quansloth is a fully private, air-gapped AI server that runs massive context models natively on consumer hardware (like an RTX 3060). By bridging a custom Gradio Python frontend with a highly optimized `llama.cpp` CUDA backend, Quansloth achieves extreme memory compression, **saving up to 75% of VRAM.**
