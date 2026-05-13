@@ -20,11 +20,9 @@
 
 <img src="https://github.com/drknzz/GitHub-Achievements/blob/main/Media/Badges/Star-Struck/PNG/StarStruck_Bronze.png" width="100" alt="Bronze Starstruck Medal">
 
-**We just bagged our second medal!** 
+**We just bagged our second Starstruck medal!** 
 
-A massive thank you to this amazing community. Hitting 128 stars—a beautiful power of two—is a huge milestone. Your support, feedback, and contributions are what fuel the code and keep this project leveling up. 
-
-Keep hacking, keep building, and let's aim for the next high score (256)! 🚀👾
+A massive thank you to this amazing community. Hitting 128 stars—a beautiful power of two—is a huge milestone. Your support, feedback, and contributions are what fuel the code and keep this project leveling up. Let's aim for the next high score (256)! 🚀👾
 
 </div>
 
